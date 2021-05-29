@@ -1,6 +1,6 @@
-# python-template-repository
+# Basic-Pandas
 
-本リポジトリはPython 環境のテンプレートリポジトリです。
+Pandas のexample リポジトリ。
 
 
 ## リポジトリ構成
@@ -9,17 +9,8 @@
 ├── Dockerfile
 ├── README.md
 ├── example
-│   ├── datatime_features_example.ipynb
-│   └── eval_model_example.ipynb
 ├── requirements.txt
 └── src
-    ├── __init__.py
-    ├── evaluation
-    │   ├── __init__.py
-    │   └── eval_model.py
-    └── features
-        ├── __init__.py
-        └── make_features.py
 ```
 
 ## 環境詳細
@@ -34,12 +25,12 @@
 
 ## 環境構築
 
-* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Regression-Models）
+* Dockderfile があるホスト側のフォルダへ移動（例：Desktop/Basic-Pandas）
 ```
-cd Desktop/Regression-Models
+cd Desktop/Basic-Pandas
 ```
 
-* Dockerによる環境構築（フォルダをマウント：Desktop/Regression_Models）
+* Docker による環境構築（フォルダをマウント：Desktop/Basic-Pandas）
 ```
 docker-compose up --build
 ```
